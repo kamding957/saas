@@ -2,15 +2,19 @@
 const links = [{
   label: 'Resources',
   children: [{
-    label: 'Help center'
-  }, {
-    label: 'Docs'
-  }, {
-    label: 'Roadmap'
-  }, {
-    label: 'Changelog'
-  }]
-}, {
+    label: 'FAQS',
+    to: '/faqs'
+  }
+  // , {
+  //   label: 'Docs'
+  // }, {
+  //   label: 'Roadmap'
+  // }, {
+  //   label: 'Changelog'
+  // }
+]
+}
+, {
   label: 'Features',
   children: [{
     label: 'Affiliates'
@@ -21,7 +25,8 @@ const links = [{
   }, {
     label: 'Sponsors'
   }]
-}, {
+}
+, {
   label: 'Company',
   children: [{
     label: 'About'
@@ -99,14 +104,14 @@ function onSubmit() {
     <template #right>
       <UColorModeButton size="sm" />
 
-      <UButton
+      <!-- <UButton
         to="https://github.com/nuxt-ui-pro/saas"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"
         color="gray"
         variant="ghost"
-      />
+      /> -->
     </template>
   </UFooter>
 </template>

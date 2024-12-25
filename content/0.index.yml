@@ -1,13 +1,13 @@
 title: Telegram bots
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+description: Make your social life more interesting and your work more efficient through interesting and practical telegram robots. The robots include tools, AI, etc.
 navigation: false
 hero:
   title: Fun and practical Telegram Robot
   description: Make your social life more interesting and your work more efficient through interesting and practical telegram robots. The robots include tools, AI, etc.
-  # headline:
-  #   label: 
-  #   to: https://ui.nuxt.com/pro
-  #   icon: i-heroicons-arrow-top-right-on-square-20-solid
+  headline:
+    label: 
+    to: https://ui.nuxt.com/pro
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Get started
       to: '/signup'
@@ -66,8 +66,8 @@ sections:
         size: md
         class: ml-8
 features:
-  title: Why choose our service?
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  title: Discover Robots
+  description: Telegram bot to help you be more productive.
   items:
     - title: Easy to use
       description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
@@ -89,8 +89,8 @@ features:
       icon: i-heroicons-chart-bar
 testimonials:
   headline: Testimonials
-  title: What our customers are saying.
-  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  title: Discover Tool Robots
+  description: Telegram bot to help you be more productive.
   items:
     - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
       author:

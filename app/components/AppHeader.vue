@@ -7,23 +7,25 @@ const links = [
 {
   label: 'Home',
   to: '/'
-},
-{
-  label: 'Docs',
-  to: '/docs'
-}, 
+}
+// ,
+// {
+//   label: 'Docs',
+//   to: '/docs'
+// }
+, 
 {
   label: 'FAQ',
   to: '/faqs'
 }
-,  
-{
-  label: 'Pricing',
-  to: '/pricing'
-}, {
-  label: 'Blog',
-  to: '/blog'
-}
+// ,  
+// {
+//   label: 'Pricing',
+//   to: '/pricing'
+// }, {
+//   label: 'Blog',
+//   to: '/blog'
+// }
 ]
 </script>
 
@@ -44,7 +46,10 @@ const links = [
     </template>
 
     <template #right>
-      <UButton
+
+      <!-- <UColorModeButton size="sm" /> -->
+
+      <!-- <UButton
         label="Sign in"
         color="gray"
         to="/login"
@@ -56,7 +61,7 @@ const links = [
         color="black"
         to="/signup"
         class="hidden lg:flex"
-      />
+      /> -->
     </template>
 
     <template #panel>
@@ -67,3 +72,9 @@ const links = [
     </template>
   </UHeader>
 </template>
+
+<style scoped>
+.custom-bg {
+  background: linear-gradient(to bottom right, #a0c4ff, #b9fbc0); /* 使用截图中的颜色 */
+}
+</style>
