@@ -3,26 +3,44 @@ import type { NavItem } from '@nuxt/content'
 
 const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 
-const links = [{
+const links = [
+{
+  label: 'Home',
+  to: '/'
+},
+{
   label: 'Docs',
   to: '/docs'
-}, {
+}, 
+{
+  label: 'FAQ',
+  to: '/faqs'
+}
+,  
+{
   label: 'Pricing',
   to: '/pricing'
 }, {
   label: 'Blog',
   to: '/blog'
-}]
+}
+]
 </script>
 
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge
-        label="SaaS"
-        variant="subtle"
-        class="mb-0.5"
+      <img
+        src="/favicon.svg"
+        alt="Logo"
+        class="me-0.5 h-8"
       />
+      Telegram Bots
+      <!-- <UBadge
+        label="Telegram Bots"
+        variant="subtle"
+        class="mb-0.5 text-lg"
+      /> -->
     </template>
 
     <template #right>
