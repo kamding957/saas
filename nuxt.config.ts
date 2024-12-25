@@ -10,8 +10,15 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxthq/studio',
     '@vueuse/nuxt',
-    'nuxt-og-image'
+    'nuxt-og-image',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
+
+  site: { 
+    url: 'https://telegramrobots.com', 
+    name: 'telegramrobots' 
+  }, 
 
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
@@ -63,5 +70,5 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2024-07-11'
+  compatibilityDate: '2024-12-11'
 })
