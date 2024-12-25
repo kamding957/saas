@@ -16,27 +16,33 @@ const links = [{
 }
 , {
   label: 'Features',
-  children: [{
-    label: 'Affiliates'
-  }, {
-    label: 'Portal'
-  }, {
-    label: 'Jobs'
-  }, {
-    label: 'Sponsors'
-  }]
+  children: [
+  //   {
+  //   label: 'Affiliates'
+  // }, {
+  //   label: 'Portal'
+  // }, {
+  //   label: 'Jobs'
+  // }, {
+  //   label: 'Sponsors'
+  // }
+]
 }
 , {
   label: 'Company',
-  children: [{
-    label: 'About'
-  }, {
-    label: 'Pricing'
-  }, {
-    label: 'Careers'
-  }, {
-    label: 'Blog'
-  }]
+  children: [
+    {
+    label: 'About',
+    to: '/'
+  }
+  // , {
+  //   label: 'Pricing'
+  // }, {
+  //   label: 'Careers'
+  // }, {
+  //   label: 'Blog'
+  // }
+]
 }]
 
 const toast = useToast()

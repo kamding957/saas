@@ -69,24 +69,35 @@ features:
   title: Discover Robots
   description: Telegram bot to help you be more productive.
   items:
-    - title: Easy to use
-      description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
-      icon: i-heroicons-cog
-    - title: Reliable
-      description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-      icon: i-heroicons-check
-    - title: Secure
-      description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
-      icon: i-heroicons-lock-closed
-    - title: Fast
-      description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
-      icon: i-heroicons-rocket-launch
-    - title: Affordable
-      description: Reprehenderit fugiat elit in do ipsum ut pariatur.
-      icon: i-heroicons-currency-dollar
-    - title: Scalable
-      description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
-      icon: i-heroicons-chart-bar
+    - title: GetIDs Bot
+      description: This bot gives you telegram-internal information about messages.
+      icon: 
+      tgurl: https://t.me/getidsbot
+
+    # - title: Reliable
+    #   description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
+    #   icon: 
+    #   tgurl: https://t.me/getidsbot
+
+    # - title: Secure
+    #   description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
+    #   icon: i-heroicons-lock-closed
+    #   tgurl: https://t.me/getidsbot
+
+    # - title: Fast
+    #   description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
+    #   icon: i-heroicons-rocket-launch
+    #   tgurl: https://t.me/getidsbot
+
+    # - title: Affordable
+    #   description: Reprehenderit fugiat elit in do ipsum ut pariatur.
+    #   icon: i-heroicons-currency-dollar
+    #   tgurl: https://t.me/getidsbot
+
+    # - title: Scalable
+    #   description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
+    #   icon: i-heroicons-chart-bar
+    #   tgurl: https://t.me/getidsbot
 testimonials:
   headline: Testimonials
   title: Discover Tool Robots
