@@ -24,7 +24,8 @@
     "@vueuse/nuxt": "^11.1.0",
     "nuxt": "^3.13.2",
     "nuxt-og-image": "^3.0.6",
-    "nuxt-site-config": "^3.0.6"
+    "nuxt-site-config": "^3.0.6",
+    "vue-gtag": "^2.0.1"
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.6.0",

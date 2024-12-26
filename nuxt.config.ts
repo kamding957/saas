@@ -12,13 +12,17 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-og-image',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
   ],
 
   site: { 
     url: 'https://telegramrobots.com', 
     name: 'telegramrobots' 
   }, 
+
+  plugins: [
+    { src: '~/plugins/vue-gtag.js', mode: 'client' } // 仅在客户端模式下加载
+  ],
 
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
