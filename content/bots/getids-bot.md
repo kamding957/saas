@@ -1,21 +1,14 @@
 ---
-title: Bot 1 
-description: This is a telegram bot for ...
+title: GetIDs Bot
+description: This bot gives you telegram-internal information about messages
+date: 2024-12-26
 ---
 
 ## Introduction
 
-This bot can help you ...
+This bot gives you telegram-internal information about messages 
 
-## Usage
+For example, GroupId, ChatId, etc.
 
-1. First, ...
-2. Then ...  
 
-## Examples 
 
-...
-
-## FAQ
-
-... 
