@@ -81,6 +81,13 @@ features:
       tgurl: https://t.me/Privategrammbot
       slug: private-gram-bot
 
+    - title: Hamster Kombat
+      description: Make your way from the shaved hamster tothe grandmaster CEO of the tier-1 cryptoexchange
+      image: /botimg/hamster_kombat_bot.png
+      tgurl: https://t.me/hamster_kombat_bot
+      slug: hamster-kombat
+
+
     # - title: Secure
     #   description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
     #   icon: i-heroicons-lock-closed
