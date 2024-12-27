@@ -73,11 +73,13 @@ features:
       description: This bot gives you telegram-internal information about messages.
       image: /botimg/getids.png
       tgurl: https://t.me/getidsbot
+      slug: getids-bot
 
     - title: Private-Gram Bot
       description: Instagram Private Viewer Tool
       image: /botimg/privategram.png
       tgurl: https://t.me/Privategrammbot
+      slug: private-gram-bot
 
     # - title: Secure
     #   description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
