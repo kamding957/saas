@@ -59,7 +59,7 @@ useSeoMeta({
         >
  
           <div class="mb-4 flex space-x-2"> <!-- 添加flex布局并设置间距 -->
-            <a :href="item.tgurl" target="_blank" class="text-center font-medium focus-within:ring-4 focus-within:outline-none inline-flex items-center justify-center px-5 py-2.5 text-sm text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-cyan-300 dark:focus:ring-cyan-800 rounded-lg mb-2 md:mb-0 w-full sm:w-auto" role="button">
+            <a v-if="item" :href="item.tgurl" target="_blank" class="text-center font-medium focus-within:ring-4 focus-within:outline-none inline-flex items-center justify-center px-5 py-2.5 text-sm text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r focus:ring-cyan-300 dark:focus:ring-cyan-800 rounded-lg mb-2 md:mb-0 w-full sm:w-auto" role="button">
               Telegram
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="ml-2" style="fill:rgba(255, 255, 255, 1);transform:;-ms-filter:;" data-v-41733f5a=""><path d="M20.665,3.717l-17.73,6.837c-1.21,0.486-1.203,1.161-0.222,1.462l4.552,1.42l10.532-6.645 c0.498-0.303,0.953-0.14,0.579,0.192l-8.533,7.701l0,0l0,0H9.841l0.002,0.001l-0.314,4.692c0.46,0,0.663-0.211,0.921-0.46 l2.211-2.15l4.599,3.397c0.848,0.467,1.457,0.227,1.668-0.785l3.019-14.228C22.256,3.912,21.474,3.351,20.665,3.717z" data-v-41733f5a=""></path></svg>
             </a>
