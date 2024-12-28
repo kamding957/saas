@@ -7,5 +7,9 @@ export default defineNuxtPlugin((nuxtApp) => {
   });
 });
 
+console.log(process.env.NODE_ENV)
+
 // 添加广告代码
-(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',8703779,document.createElement('script'))
+if (process.env.NODE_ENV === 'production') {
+  (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',8703779,document.createElement('script'))
+}
